@@ -2053,79 +2053,99 @@ $ ls -lh
 <summary>Список файлов с их занятой памятью</summary>
 
 ```bash
-total 24M 
-rw-rw-r-- 1 vboxuser vboxuser 2.4K Feb 21 13:12 libboost_atomic.a
-lrwxrwxrwx 1 vboxuser vboxuser   25 Feb 21 13:14 libboost_atomic.so -> libboost_atomic.so.1.69.0
--rwxrwxr-x 1 vboxuser vboxuser  16K Feb 21 13:14 libboost_atomic.so.1.69.0
--rw-rw-r-- 1 vboxuser vboxuser 229K Feb 21 13:18 libboost_chrono.a
-lrwxrwxrwx 1 vboxuser vboxuser   25 Feb 21 13:14 libboost_chrono.so -> libboost_chrono.so.1.69.0
--rwxrwxr-x 1 vboxuser vboxuser  57K Feb 21 13:14 libboost_chrono.so.1.69.0
--rw-rw-r-- 1 vboxuser vboxuser 149K Feb 21 13:12 libboost_container.a
-lrwxrwxrwx 1 vboxuser vboxuser   28 Feb 21 13:14 libboost_container.so -> libboost_container.so.1.69.0
--rwxrwxr-x 1 vboxuser vboxuser 104K Feb 21 13:14 libboost_container.so.1.69.0
--rw-rw-r-- 1 vboxuser vboxuser  20K Feb 21 13:12 libboost_context.a
-lrwxrwxrwx 1 vboxuser vboxuser   26 Feb 21 13:14 libboost_context.so -> libboost_context.so.1.69.0
--rwxrwxr-x 1 vboxuser vboxuser  24K Feb 21 13:14 libboost_context.so.1.69.0
--rw-rw-r-- 1 vboxuser vboxuser 319K Feb 21 13:12 libboost_contract.a
-lrwxrwxrwx 1 vboxuser vboxuser   27 Feb 21 13:14 libboost_contract.so -> libboost_contract.so.1.69.0
--rwxrwxr-x 1 vboxuser vboxuser 168K Feb 21 13:14 libboost_contract.so.1.69.0
--rw-rw-r-- 1 vboxuser vboxuser 149K Feb 21 13:12 libboost_date_time.a
-lrwxrwxrwx 1 vboxuser vboxuser   28 Feb 21 13:14 libboost_date_time.so -> libboost_date_time.so.1.69.0
--rwxrwxr-x 1 vboxuser vboxuser  89K Feb 21 13:14 libboost_date_time.so.1.69.0
--rw-rw-r-- 1 vboxuser vboxuser 1.5K Feb 21 13:14 libboost_exception.a
--rw-rw-r-- 1 vboxuser vboxuser 229K Feb 21 13:12 libboost_fiber.a
-lrwxrwxrwx 1 vboxuser vboxuser   24 Feb 21 13:15 libboost_fiber.so -> libboost_fiber.so.1.69.0
--rwxrwxr-x 1 vboxuser vboxuser  97K Feb 21 13:15 libboost_fiber.so.1.69.0
--rw-rw-r-- 1 vboxuser vboxuser 400K Feb 21 13:12 libboost_filesystem.a
-lrwxrwxrwx 1 vboxuser vboxuser   29 Feb 21 13:14 libboost_filesystem.so -> libboost_filesystem.so.1.69.0
--rwxrwxr-x 1 vboxuser vboxuser 145K Feb 21 13:14 libboost_filesystem.so.1.69.0
--rw-rw-r-- 1 vboxuser vboxuser 824K Feb 21 13:13 libboost_graph.a
-lrwxrwxrwx 1 vboxuser vboxuser   24 Feb 21 13:16 libboost_graph.so -> libboost_graph.so.1.69.0
--rwxrwxr-x 1 vboxuser vboxuser 383K Feb 21 13:16 libboost_graph.so.1.69.0
--rw-rw-r-- 1 vboxuser vboxuser 162K Feb 21 13:13 libboost_iostreams.a
-lrwxrwxrwx 1 vboxuser vboxuser   28 Feb 21 13:16 libboost_iostreams.so -> libboost_iostreams.so.1.69.0
--rwxrwxr-x 1 vboxuser vboxuser  83K Feb 21 13:16 libboost_iostreams.so.1.69.0
--rw-rw-r-- 1 vboxuser vboxuser 206K Feb 21 13:11 libboost_prg_exec_monitor.a
-lrwxrwxrwx 1 vboxuser vboxuser   35 Feb 21 13:18 libboost_prg_exec_monitor.so -> libboost_prg_exec_monitor.so.1.69.0
--rwxrwxr-x 1 vboxuser vboxuser 111K Feb 21 13:18 libboost_prg_exec_monitor.so.1.69.0
--rw-rw-r-- 1 vboxuser vboxuser 1.5M Feb 21 13:10 libboost_program_options.a
-lrwxrwxrwx 1 vboxuser vboxuser   34 Feb 21 13:18 libboost_program_options.so -> libboost_program_options.so.1.69.0
--rwxrwxr-x 1 vboxuser vboxuser 654K Feb 21 13:18 libboost_program_options.so.1.69.0
--rw-rw-r-- 1 vboxuser vboxuser  78K Feb 21 13:10 libboost_random.a
-lrwxrwxrwx 1 vboxuser vboxuser   25 Feb 21 13:18 libboost_random.so -> libboost_random.so.1.69.0
--rwxrwxr-x 1 vboxuser vboxuser  56K Feb 21 13:18 libboost_random.so.1.69.0
--rw-rw-r-- 1 vboxuser vboxuser 3.1M Feb 21 13:13 libboost_regex.a
-lrwxrwxrwx 1 vboxuser vboxuser   24 Feb 21 13:15 libboost_regex.so -> libboost_regex.so.1.69.0
--rwxrwxr-x 1 vboxuser vboxuser 1.4M Feb 21 13:15 libboost_regex.so.1.69.0
--rw-rw-r-- 1 vboxuser vboxuser 1.2M Feb 21 13:10 libboost_serialization.a
-lrwxrwxrwx 1 vboxuser vboxuser   32 Feb 21 13:18 libboost_serialization.so -> libboost_serialization.so.1.69.0
--rwxrwxr-x 1 vboxuser vboxuser 466K Feb 21 13:18 libboost_serialization.so.1.69.0
--rw-rw-r-- 1 vboxuser vboxuser  35K Feb 21 13:10 libboost_stacktrace_addr2line.a
-lrwxrwxrwx 1 vboxuser vboxuser   39 Feb 21 13:18 libboost_stacktrace_addr2line.so -> libboost_stacktrace_addr2line.so.1.69.0
--rwxrwxr-x 1 vboxuser vboxuser  39K Feb 21 13:18 libboost_stacktrace_addr2line.so.1.69.0
--rw-rw-r-- 1 vboxuser vboxuser  19K Feb 21 13:10 libboost_stacktrace_backtrace.a
-lrwxrwxrwx 1 vboxuser vboxuser   39 Feb 21 13:18 libboost_stacktrace_backtrace.so -> libboost_stacktrace_backtrace.so.1.69.0
--rwxrwxr-x 1 vboxuser vboxuser 112K Feb 21 13:18 libboost_stacktrace_backtrace.so.1.69.0
--rw-rw-r-- 1 vboxuser vboxuser  13K Feb 21 13:10 libboost_stacktrace_basic.a
-lrwxrwxrwx 1 vboxuser vboxuser   35 Feb 21 13:18 libboost_stacktrace_basic.so -> libboost_stacktrace_basic.so.1.69.0
--rwxrwxr-x 1 vboxuser vboxuser  22K Feb 21 13:18 libboost_stacktrace_basic.so.1.69.0
--rw-rw-r-- 1 vboxuser vboxuser 2.7K Feb 21 13:10 libboost_stacktrace_noop.a
-lrwxrwxrwx 1 vboxuser vboxuser   34 Feb 21 13:18 libboost_stacktrace_noop.so -> libboost_stacktrace_noop.so.1.69.0
--rwxrwxr-x 1 vboxuser vboxuser  16K Feb 21 13:18 libboost_stacktrace_noop.so.1.69.0
--rw-rw-r-- 1 vboxuser vboxuser 1.3K Feb 21 13:18 libboost_system.a
-lrwxrwxrwx 1 vboxuser vboxuser   25 Feb 21 13:14 libboost_system.so -> libboost_system.so.1.69.0
--rwxrwxr-x 1 vboxuser vboxuser  15K Feb 21 13:14 libboost_system.so.1.69.0
--rw-rw-r-- 1 vboxuser vboxuser 2.2M Feb 21 13:18 libboost_test_exec_monitor.a
--rw-rw-r-- 1 vboxuser vboxuser  51K Feb 21 13:18 libboost_timer.a
-lrwxrwxrwx 1 vboxuser vboxuser   24 Feb 21 13:18 libboost_timer.so -> libboost_timer.so.1.69.0
--rwxrwxr-x 1 vboxuser vboxuser  45K Feb 21 13:18 libboost_timer.so.1.69.0
--rw-rw-r-- 1 vboxuser vboxuser 2.2M Feb 21 13:11 libboost_unit_test_framework.a
-lrwxrwxrwx 1 vboxuser vboxuser   38 Feb 21 13:19 libboost_unit_test_framework.so -> libboost_unit_test_framework.so.1.69.0
--rwxrwxr-x 1 vboxuser vboxuser 913K Feb 21 13:19 libboost_unit_test_framework.so.1.69.0
--rw-rw-r-- 1 vboxuser vboxuser 4.5M Feb 21 13:12 libboost_wave.a
--rw-rw-r-- 1 vboxuser vboxuser 773K Feb 21 13:10 libboost_wserialization.a
-lrwxrwxrwx 1 vboxuser vboxuser   33 Feb 21 13:18 libboost_wserialization.so -> libboost_wserialization.so.1.69.0
--rwxrwxr-x 1 vboxuser vboxuser 330K Feb 21 13:18 libboost_wserialization.so.1.69.0
+total 40M
+-rw-rw-r-- 1 vboxuser vboxuser 2.4K Feb 23 18:44 libboost_atomic.a
+lrwxrwxrwx 1 vboxuser vboxuser   25 Feb 23 18:46 libboost_atomic.so -> libboost_atomic.so.1.69.0
+-rwxrwxr-x 1 vboxuser vboxuser  16K Feb 23 18:46 libboost_atomic.so.1.69.0
+-rw-rw-r-- 1 vboxuser vboxuser 229K Feb 23 18:51 libboost_chrono.a
+lrwxrwxrwx 1 vboxuser vboxuser   25 Feb 23 18:46 libboost_chrono.so -> libboost_chrono.so.1.69.0
+-rwxrwxr-x 1 vboxuser vboxuser  57K Feb 23 18:46 libboost_chrono.so.1.69.0
+-rw-rw-r-- 1 vboxuser vboxuser 149K Feb 23 18:44 libboost_container.a
+lrwxrwxrwx 1 vboxuser vboxuser   28 Feb 23 18:46 libboost_container.so -> libboost_container.so.1.69.0
+-rwxrwxr-x 1 vboxuser vboxuser 104K Feb 23 18:46 libboost_container.so.1.69.0
+-rw-rw-r-- 1 vboxuser vboxuser  20K Feb 23 18:44 libboost_context.a
+lrwxrwxrwx 1 vboxuser vboxuser   26 Feb 23 18:46 libboost_context.so -> libboost_context.so.1.69.0
+-rwxrwxr-x 1 vboxuser vboxuser  24K Feb 23 18:46 libboost_context.so.1.69.0
+-rw-rw-r-- 1 vboxuser vboxuser 319K Feb 23 18:44 libboost_contract.a
+lrwxrwxrwx 1 vboxuser vboxuser   27 Feb 23 18:47 libboost_contract.so -> libboost_contract.so.1.69.0
+-rwxrwxr-x 1 vboxuser vboxuser 168K Feb 23 18:47 libboost_contract.so.1.69.0
+-rw-rw-r-- 1 vboxuser vboxuser 181K Feb 23 18:45 libboost_coroutine.a
+lrwxrwxrwx 1 vboxuser vboxuser   28 Feb 23 18:47 libboost_coroutine.so -> libboost_coroutine.so.1.69.0
+-rwxrwxr-x 1 vboxuser vboxuser  87K Feb 23 18:47 libboost_coroutine.so.1.69.0
+-rw-rw-r-- 1 vboxuser vboxuser 149K Feb 23 18:45 libboost_date_time.a
+lrwxrwxrwx 1 vboxuser vboxuser   28 Feb 23 18:47 libboost_date_time.so -> libboost_date_time.so.1.69.0
+-rwxrwxr-x 1 vboxuser vboxuser  89K Feb 23 18:47 libboost_date_time.so.1.69.0
+-rw-rw-r-- 1 vboxuser vboxuser 1.5K Feb 23 18:47 libboost_exception.a
+-rw-rw-r-- 1 vboxuser vboxuser 229K Feb 23 18:45 libboost_fiber.a
+lrwxrwxrwx 1 vboxuser vboxuser   24 Feb 23 18:47 libboost_fiber.so -> libboost_fiber.so.1.69.0
+-rwxrwxr-x 1 vboxuser vboxuser  97K Feb 23 18:47 libboost_fiber.so.1.69.0
+-rw-rw-r-- 1 vboxuser vboxuser 400K Feb 23 18:45 libboost_filesystem.a
+lrwxrwxrwx 1 vboxuser vboxuser   29 Feb 23 18:47 libboost_filesystem.so -> libboost_filesystem.so.1.69.0
+-rwxrwxr-x 1 vboxuser vboxuser 145K Feb 23 18:47 libboost_filesystem.so.1.69.0
+-rw-rw-r-- 1 vboxuser vboxuser 824K Feb 23 18:46 libboost_graph.a
+lrwxrwxrwx 1 vboxuser vboxuser   24 Feb 23 18:48 libboost_graph.so -> libboost_graph.so.1.69.0
+-rwxrwxr-x 1 vboxuser vboxuser 383K Feb 23 18:48 libboost_graph.so.1.69.0
+-rw-rw-r-- 1 vboxuser vboxuser 162K Feb 23 18:46 libboost_iostreams.a
+lrwxrwxrwx 1 vboxuser vboxuser   28 Feb 23 18:48 libboost_iostreams.so -> libboost_iostreams.so.1.69.0
+-rwxrwxr-x 1 vboxuser vboxuser  83K Feb 23 18:48 libboost_iostreams.so.1.69.0
+-rw-rw-r-- 1 vboxuser vboxuser 3.3M Feb 23 18:46 libboost_locale.a
+lrwxrwxrwx 1 vboxuser vboxuser   25 Feb 23 18:49 libboost_locale.so -> libboost_locale.so.1.69.0
+-rwxrwxr-x 1 vboxuser vboxuser 1.2M Feb 23 18:49 libboost_locale.so.1.69.0
+-rw-rw-r-- 1 vboxuser vboxuser 4.1M Feb 23 18:42 libboost_log.a
+-rw-rw-r-- 1 vboxuser vboxuser 2.5M Feb 23 18:42 libboost_log_setup.a
+lrwxrwxrwx 1 vboxuser vboxuser   28 Feb 23 18:50 libboost_log_setup.so -> libboost_log_setup.so.1.69.0
+-rwxrwxr-x 1 vboxuser vboxuser 1.2M Feb 23 18:50 libboost_log_setup.so.1.69.0
+lrwxrwxrwx 1 vboxuser vboxuser   22 Feb 23 18:49 libboost_log.so -> libboost_log.so.1.69.0
+-rwxrwxr-x 1 vboxuser vboxuser 1.3M Feb 23 18:49 libboost_log.so.1.69.0
+-rw-rw-r-- 1 vboxuser vboxuser 206K Feb 23 18:43 libboost_prg_exec_monitor.a
+lrwxrwxrwx 1 vboxuser vboxuser   35 Feb 23 18:51 libboost_prg_exec_monitor.so -> libboost_prg_exec_monitor.so.1.69.0
+-rwxrwxr-x 1 vboxuser vboxuser 111K Feb 23 18:51 libboost_prg_exec_monitor.so.1.69.0
+-rw-rw-r-- 1 vboxuser vboxuser 1.5M Feb 23 18:43 libboost_program_options.a
+lrwxrwxrwx 1 vboxuser vboxuser   34 Feb 23 18:50 libboost_program_options.so -> libboost_program_options.so.1.69.0
+-rwxrwxr-x 1 vboxuser vboxuser 654K Feb 23 18:50 libboost_program_options.so.1.69.0
+-rw-rw-r-- 1 vboxuser vboxuser  78K Feb 23 18:43 libboost_random.a
+lrwxrwxrwx 1 vboxuser vboxuser   25 Feb 23 18:50 libboost_random.so -> libboost_random.so.1.69.0
+-rwxrwxr-x 1 vboxuser vboxuser  56K Feb 23 18:50 libboost_random.so.1.69.0
+-rw-rw-r-- 1 vboxuser vboxuser 3.1M Feb 23 18:46 libboost_regex.a
+lrwxrwxrwx 1 vboxuser vboxuser   24 Feb 23 18:48 libboost_regex.so -> libboost_regex.so.1.69.0
+-rwxrwxr-x 1 vboxuser vboxuser 1.4M Feb 23 18:48 libboost_regex.so.1.69.0
+-rw-rw-r-- 1 vboxuser vboxuser 1.2M Feb 23 18:43 libboost_serialization.a
+lrwxrwxrwx 1 vboxuser vboxuser   32 Feb 23 18:51 libboost_serialization.so -> libboost_serialization.so.1.69.0
+-rwxrwxr-x 1 vboxuser vboxuser 466K Feb 23 18:51 libboost_serialization.so.1.69.0
+-rw-rw-r-- 1 vboxuser vboxuser  35K Feb 23 18:43 libboost_stacktrace_addr2line.a
+lrwxrwxrwx 1 vboxuser vboxuser   39 Feb 23 18:51 libboost_stacktrace_addr2line.so -> libboost_stacktrace_addr2line.so.1.69.0
+-rwxrwxr-x 1 vboxuser vboxuser  39K Feb 23 18:51 libboost_stacktrace_addr2line.so.1.69.0
+-rw-rw-r-- 1 vboxuser vboxuser  19K Feb 23 18:43 libboost_stacktrace_backtrace.a
+lrwxrwxrwx 1 vboxuser vboxuser   39 Feb 23 18:51 libboost_stacktrace_backtrace.so -> libboost_stacktrace_backtrace.so.1.69.0
+-rwxrwxr-x 1 vboxuser vboxuser 112K Feb 23 18:51 libboost_stacktrace_backtrace.so.1.69.0
+-rw-rw-r-- 1 vboxuser vboxuser  13K Feb 23 18:43 libboost_stacktrace_basic.a
+lrwxrwxrwx 1 vboxuser vboxuser   35 Feb 23 18:51 libboost_stacktrace_basic.so -> libboost_stacktrace_basic.so.1.69.0
+-rwxrwxr-x 1 vboxuser vboxuser  22K Feb 23 18:51 libboost_stacktrace_basic.so.1.69.0
+-rw-rw-r-- 1 vboxuser vboxuser 2.7K Feb 23 18:43 libboost_stacktrace_noop.a
+lrwxrwxrwx 1 vboxuser vboxuser   34 Feb 23 18:51 libboost_stacktrace_noop.so -> libboost_stacktrace_noop.so.1.69.0
+-rwxrwxr-x 1 vboxuser vboxuser  16K Feb 23 18:51 libboost_stacktrace_noop.so.1.69.0
+-rw-rw-r-- 1 vboxuser vboxuser 1.3K Feb 23 18:51 libboost_system.a
+lrwxrwxrwx 1 vboxuser vboxuser   25 Feb 23 18:46 libboost_system.so -> libboost_system.so.1.69.0
+-rwxrwxr-x 1 vboxuser vboxuser  15K Feb 23 18:46 libboost_system.so.1.69.0
+-rw-rw-r-- 1 vboxuser vboxuser 2.2M Feb 23 18:51 libboost_test_exec_monitor.a
+-rw-rw-r-- 1 vboxuser vboxuser 441K Feb 23 18:44 libboost_thread.a
+lrwxrwxrwx 1 vboxuser vboxuser   25 Feb 23 18:47 libboost_thread.so -> libboost_thread.so.1.69.0
+-rwxrwxr-x 1 vboxuser vboxuser 223K Feb 23 18:47 libboost_thread.so.1.69.0
+-rw-rw-r-- 1 vboxuser vboxuser  51K Feb 23 18:51 libboost_timer.a
+lrwxrwxrwx 1 vboxuser vboxuser   24 Feb 23 18:51 libboost_timer.so -> libboost_timer.so.1.69.0
+-rwxrwxr-x 1 vboxuser vboxuser  45K Feb 23 18:51 libboost_timer.so.1.69.0
+-rw-rw-r-- 1 vboxuser vboxuser 170K Feb 23 18:44 libboost_type_erasure.a
+lrwxrwxrwx 1 vboxuser vboxuser   31 Feb 23 18:51 libboost_type_erasure.so -> libboost_type_erasure.so.1.69.0
+-rwxrwxr-x 1 vboxuser vboxuser  99K Feb 23 18:51 libboost_type_erasure.so.1.69.0
+-rw-rw-r-- 1 vboxuser vboxuser 2.2M Feb 23 18:44 libboost_unit_test_framework.a
+lrwxrwxrwx 1 vboxuser vboxuser   38 Feb 23 18:51 libboost_unit_test_framework.so -> libboost_unit_test_framework.so.1.69.0
+-rwxrwxr-x 1 vboxuser vboxuser 913K Feb 23 18:51 libboost_unit_test_framework.so.1.69.0
+-rw-rw-r-- 1 vboxuser vboxuser 4.5M Feb 23 18:44 libboost_wave.a
+lrwxrwxrwx 1 vboxuser vboxuser   23 Feb 23 18:52 libboost_wave.so -> libboost_wave.so.1.69.0
+-rwxrwxr-x 1 vboxuser vboxuser 1.5M Feb 23 18:52 libboost_wave.so.1.69.0
+-rw-rw-r-- 1 vboxuser vboxuser 773K Feb 23 18:43 libboost_wserialization.a
+lrwxrwxrwx 1 vboxuser vboxuser   33 Feb 23 18:51 libboost_wserialization.so -> libboost_wserialization.so.1.69.0
+-rwxrwxr-x 1 vboxuser vboxuser 330K Feb 23 18:51 libboost_wserialization.so.1.69.0
 ```
 
 </details>
@@ -2137,13 +2157,13 @@ $ ls -S | head -10
 Вывод:
 ```bash
 libboost_wave.a
+libboost_log.a
+libboost_locale.a
 libboost_regex.a
+libboost_log_setup.a
 libboost_test_exec_monitor.a
 libboost_unit_test_framework.a
+libboost_wave.so.1.69.0
 libboost_program_options.a
 libboost_regex.so.1.69.0
-libboost_serialization.a
-libboost_unit_test_framework.so.1.69.0
-libboost_graph.a
-libboost_wserialization.a
 ```
